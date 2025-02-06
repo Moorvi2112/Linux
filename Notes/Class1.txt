@@ -18,3 +18,19 @@ Basic Linux Commands ->
 7. mv -> move command
   mv [source] [destination]
 8. touch -> to create a file
+
+//Class Practical working
+
+.cd Desktop
+.mkdir folder1
+.cd folder1
+.touch file1.txt
+.cd ..
+.mkdir folder2
+.cp folder1/file1.txt/folder2
+.mkdir folder3
+.mv folder2/file1.txt folder3
+.rm folder3 (it cannot be remove because it is not empty)
+.rm -r folder3
+.rm -d folder2
+.pwd

@@ -1,0 +1,96 @@
+1-Who is credited with creating the Linux kernel?  
+Linus Torvalds
+ 
+2-Which of the following is a key characteristic of Debian-based Linux distributions like Ubuntu?  
+They use DEB packages and APT for package management.
+
+3-What does the command ls do in the terminal?
+Lists files and directories
+ 
+4- Which of the following commands is used to change directories in the terminal?
+cd
+ 
+5- What is the purpose of the pwd command?  
+Displays the current directory
+  
+6-Which of the following commands will delete a directory and its contents?
+rm -r
+
+7- Which command is used to change the file permissions of a file in Linux?
+chmod
+ 
+8-Which option is used to display hidden files when running `ls`?
+-A
+ 
+9-What does the `-l` option do in the `ls` command?
+List files in a long format
+ 
+10- Which `ls` option sorts files and directories by modification time, with the most recently modified ones at the top?
+-t
+  
+11- Which `ls` option displays files and directories in a tree-like format?
+-R
+ 
+12- What is the root directory in the Linux file system?
+/
+  
+13-In Linux, what is the purpose of the `/bin` directory?
+Storing binary executables and essential system programs
+  
+14- Which directory contains configuration files for system-wide settings in Linux?
+/etc
+  
+15 - In Linux, what is the purpose of the `/usr` directory?
+User Utilities and Application 
+
+16-What does the `/dev` directory contain in Linux?
+Device files representing hardware devices
+
+17-You have a text file named `document.txt`. What is the output of the `cat document.txt` command?
+The content of `document.txt`
+ 
+18-If you run `chmod 755 file.txt`, what is the permission set for `file.txt`?
+-rwxr-xr-x
+
+19-You copy a file named `file.txt` to a directory called `backup/`. What is the command to do this?
+cp file.txt backup/
+
+20 -What does the `touch newfile.txt` command do?
+Creates a new empty file named `newfile.txt`
+Updates the timestamp of an existing file ‘newfile.txt’
+Either A or B
+ 
+ 
+21-What does the `cd .` command do?
+Do Nothing
+  
+22-You execute the `rm -rf directory/` command. What does the `-r` and `-f` combination do?
+Remove the directory forcefully without asking for confirmation
+ 
+23-What does the `cd ~` command do in Linux?
+Changes to the home directory of the current user
+  
+24-You run the `mkdir dir1/dir2/dir3` command. What happens?
+Create dir3 if path exists else shows Error.
+ 
+25-In what year was the first version of the Linux kernel released?
+1991
+  
+26-Which Linux distribution is known for its use in server environments and is derived from the sources of Red Hat Enterprise Linux?
+centOS
+  
+27-Which component of the Linux system manages hardware resources and provides an interface for software to interact with the hardware?
+Kernel
+ 
+28-You run the `ls -l` command and see the following output: `-rw-r--r-- 1 user user 1024 Oct 15 12:34 file.txt`. What does "user user" represent?
+The owner and group associated with the file respectively
+
+29-You run the `mv file.txt newfile.txt` command. What is the result?
+Renames "file.txt" to "newfile.txt"
+
+30-You run the `ls -aR /` command. What will be the output?
+List all files and directories(hidden as well) in the root directory recursively
+ 
+31-You run the `cd ../../` command. What is the result?
+Navigates two levels up in the directory structure
+ 

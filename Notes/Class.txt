@@ -1,0 +1,2 @@
+sudo apt update => It collects all updated files.
+sudo apt upgrade =>sudo apt full-upgrade

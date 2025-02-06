@@ -1,0 +1,49 @@
+//Questions(Given This Directory Structure and /home/jhon(~) as your working Directory. Answer the below 14 MCQ Questions:)
+
+Given This Directory Structure and /home/jhon(~) as your working Directory. Answer the below 14 MCQ Questions:
+ 
+ /home/john
+ ├── Documents
+ │ ├── Work
+ │ │ ├── Projects
+ │ │ │ ├── Project1
+ │ │ │ ├── Project2
+ │ │ ├── Reports
+ │ │ └── Archives
+ │ ├── Personal
+ │ │ ├── Family
+ │ │ ├── Travel
+ │ │ └── Hobbies
+ ├── Downloads
+ ├── Music
+ ├── Pictures
+ │ ├── Vacations
+ │ ├── Events
+ │ └── Family
+ ├── Videos
+ │ ├── HomeVideos
+ │ ├── Tutorials
+ │ └── Movies
+ ├── Desktop
+ │ ├── Important
+ │ └── Temporary
+ ├── Public
+ │ ├── SharedFiles
+ │ └── SharedPhotos
+
+
+
+1. To change the current directory to "Downloads," what command should you use?(cd ~/Downloads)
+2. Which command is used to create a new directory called "Photos" under the "Documents" directory?(mkdir Documents/Photos)
+3. How do you remove an empty directory "Temporary" under the "Desktop" directory?(rmdir Desktop/Temporary)
+4. To create an empty file called "report.txt" in the "Documents/Work/Reports" directory, which command would you use?(touch Documents/Work/Reports/report.txt)
+5. What command allows you to rename a file or directory?(mv)
+6. To remove a file named "oldfile.txt" from the "Desktop" directory, which command would you use?(rm Desktop/oldfile.txt)
+7. To find files and directories in the system, you can use the "locate" command. What does it search for?(Files and directories based on their names)
+8. What command is used to forcefully remove a Pictures Folder?(rm -r Pictures)
+9. How can you change the permissions of a file to make it readable, writable, and executable for the owner, but only readable for others?(no)
+10. How do you find the absolute path of a file named "important.txt" located within the "Projects" directory under "Documents/Work"?(find /home/john/Documents/Work -name important.txt)
+11. What command is used to change the access mode of a file in symbolic notation, granting read and write permissions to the owner, read-only permissions to the group, and no permissions to others?(chmod u+rw, g+r, o-r file.txt)
+12. To recursively copy a directory and its contents, preserving ownership and permissions, which command should you use?(cp -a)
+13. What command would you use to remove a directory "Public" and its contents?(rm -rf Public)
+14. To copy a directory and its contents from "Documents/Work" to "Documents/Archives," which command should you use?(cp -r Documents/Work Documents/Archives)

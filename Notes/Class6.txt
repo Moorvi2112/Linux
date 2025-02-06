@@ -1,0 +1,13 @@
+sudo apt update -> it collects all updated files.
+sudo apt upgrade -> it collects all the updated files and upgrade it.
+sudo apt full-upgrade -> it collects all the updated files and upgrade it and removes unaccessary files aswell.
+
+sudo apt install [package_name]
+
+sudo apt remove [package_name] -> removes package with all dependencies
+Dpkg is a low-level package management system, while apt is a higher-level package manager for Debian-based Linux distributions.
+Dpkg is used to install, configure, upgrade, and remove packages, 
+while apt is used to install, maintain, and upgrade packages, including their dependencies. 
+
+
+ping -c 5 google.com //pings or sends 5 packets to google.com

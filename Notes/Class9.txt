@@ -1,0 +1,23 @@
+//pwd(present working directory)=>check current location
+//whoami=>check current log in user
+//date,date +%D,T=>check date or time
+// ls,ls -lt =>current location of files and directories (lt for detailed information of files)
+//ls -ltr=>reverse order
+//ls -lh=>in readable form
+//clear=>to clean linux
+//cat <file>=>display content of a file
+//less <file>=>read file and search word(/name=>for search, for next press n ,for go to end press shift+G ,for reverse search press ? ,bhr anne ke liye press q )
+// more <file>=>view content of a file page by page
+//touch <file_name> => create file
+//rm <filename>=>delete file
+//vi <file_name>,nano<file_name>=>edit file(vi ke badh i press karna then kuch insert krna then esc then shiftcolun karke wq likhna)(nano file ke badh enter karna then kuch likhna then ctrl x press then y then enter)
+//mkdir <dir_name>=>create directory or folder
+//rmdir<dir_name>,rm -rf<dir_name=>delete folder
+//cd/path/folder,cd..=>change path or move to another folder(cd ../.. ik/two folder picche jana)
+
+
+//kissi v directory ko root ke sath likhna ja follow karna that is absolute path
+
+//kissi ke relation main kissi ko path dena that is related path
+
+// cp<file> /dest/path=>(copy and paste file from one folder to another)
